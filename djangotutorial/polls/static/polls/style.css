@@ -1,0 +1,35 @@
+/* Tipografía y ajustes base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: white url("./images/background.png") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Enlaces dentro de listas */
+li a {
+    color: #2a5a39; /* verde más elegante y suave */
+    text-decoration: none;
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+li a:hover {
+    color: #1f442c;
+    opacity: 0.85;
+}
+
+/* Listas más limpias */
+ul, ol {
+    padding-left: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+/* Opcional: contenedor central para un diseño más moderno */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
